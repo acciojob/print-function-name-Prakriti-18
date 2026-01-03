@@ -1,6 +1,4 @@
 //your JS code here. If required.
-function AccioJob() {
+window.functionName = function () {
   alert(arguments.callee.name);
-}
-
-AccioJob();
+};
